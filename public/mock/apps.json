@@ -1,0 +1,100 @@
+{
+  "apps": [
+    {
+      "id": "1",
+      "name": "Slack",
+      "category": "Video Conferencing",
+      "connector": ""
+    },
+    {
+      "id": "2",
+      "name": "Zoom",
+      "category": "Video Conferencing",
+      "connector": ""
+    },
+    {
+      "id": "3",
+      "name": "Microsoft Teams",
+      "category": "Video Conferencing",
+      "connector": ""
+    },
+    {
+      "id": "4",
+      "name": "Google Meet",
+      "category": "Video Conferencing",
+      "connector": ""
+    },
+    {
+      "id": "5",
+      "name": "Trello",
+      "category": "Project Management",
+      "connector": ""
+    },
+    {
+      "id": "6",
+      "name": "Asana",
+      "category": "Project Management",
+      "connector": ""
+    },
+    {
+      "id": "7",
+      "name": "Jira",
+      "category": "Project Management",
+      "connector": ""
+    },
+    {
+      "id": "8",
+      "name": "Dropbox",
+      "category": "Cloud Storage",
+      "connector": ""
+    },
+    {
+      "id": "9",
+      "name": "Google Drive",
+      "category": "Cloud Storage",
+      "connector": ""
+    },
+    {
+      "id": "10",
+      "name": "OneDrive",
+      "category": "Cloud Storage",
+      "connector": ""
+    },
+    {
+      "id": "11",
+      "name": "Salesforce",
+      "category": "Customer Relationship Management",
+      "connector": ""
+    },
+    {
+      "id": "12",
+      "name": "HubSpot",
+      "category": "Customer Relationship Management",
+      "connector": ""
+    },
+    {
+      "id": "13",
+      "name": "Zendesk",
+      "category": "Customer Support",
+      "connector": ""
+    },
+    {
+      "id": "14",
+      "name": "Freshdesk",
+      "category": "Customer Support",
+      "connector": ""
+    },
+    {
+      "id": "15",
+      "name": "Mailchimp",
+      "category": "Email Marketing",
+      "connector": ""
+    },
+    {
+      "id": "16",
+      "name": "Constant Contact",
+      "category": "Email Marketing",
+      "connector": ""
+    }
+  ]
+}

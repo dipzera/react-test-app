@@ -1,5 +1,5 @@
 import { useUser } from "../hooks/use-user";
-import ChevronDown from "./svgs/ChevronDown";
+import ChevronDown from "../assets/svg-components/ChevronDown";
 
 export type User = {
   id: string;
@@ -10,8 +10,6 @@ export type User = {
 export default function UserProfile() {
   const user = useUser();
 
-  // TODO: Wrap user name in a dropdown component ?
-  //
   return (
     <div className="flex gap-3 items-center min-w-24">
       <div className="rounded-full overflow-hidden">

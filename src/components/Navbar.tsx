@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import NavbarItems from "./NavbarItems";
-import NavbarLogo from "./svgs/NavbarLogo";
+import NavbarLogo from "../assets/svg-components/NavbarLogo";
 import UserProfile from "./UserProfile";
 
 export default function Navbar() {
