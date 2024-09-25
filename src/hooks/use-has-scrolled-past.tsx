@@ -4,8 +4,6 @@ export const useHasScrolledPast = (elementHeight: number) => {
   const [hasScrolledPast, setHasScrolledPast] = useState(false);
 
   const handleScroll = useCallback(() => {
-    console.log(window.scrollY);
-    console.log(elementHeight);
     if (window.scrollY > elementHeight) {
       setHasScrolledPast(true);
     } else {

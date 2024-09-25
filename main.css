@@ -5,3 +5,8 @@
 :root {
 	--navbar-height: 56px;
 }
+
+body {
+	background-color: #f9fafc;
+}
+

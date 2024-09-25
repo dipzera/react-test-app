@@ -5,7 +5,7 @@ export default function AppInventory() {
   return (
     <div>
       <MainLayout
-        title={<h1 className="text-[#4c4c4c] text-xl">App Inventory</h1>}
+        title={<h1 className="text-primary text-xl">App Inventory</h1>}
       >
         <AppInventoryTable />
       </MainLayout>

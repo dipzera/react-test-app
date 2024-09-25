@@ -6,7 +6,12 @@ import Navbar from "./components/Navbar";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <NavbarWrapper />,
+    element: (
+      <>
+        <Navbar />
+        <Outlet />
+      </>
+    ),
     children: [
       {
         path: "/",
@@ -20,19 +25,6 @@ const router = createBrowserRouter([
   },
 ]);
 
-function NavbarWrapper() {
-  return (
-    <>
-      <Navbar />
-      <Outlet />
-    </>
-  );
-}
-
 export default function App() {
-  return (
-    <>
-      <RouterProvider router={router} />
-    </>
-  );
+  return <RouterProvider router={router} />;
 }

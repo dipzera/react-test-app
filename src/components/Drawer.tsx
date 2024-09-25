@@ -52,12 +52,12 @@ export default function Drawer({ children, show, setShow, title }: Props) {
         ...springs,
         top: hasScrolledPast ? "0px" : "calc(0px + var(--navbar-height))",
       }}
-      className="bg-white right-0 fixed h-full w-[700px] shadow-lg z-50"
+      className="bg-gray-100 right-0 fixed h-full w-[700px] shadow-lg z-50 overflow-y-auto"
       ref={ref}
     >
       <div className="bg-gray py-5 px-6">
         <div className="headline flex justify-between">
-          <h2>{title}</h2>
+          {title}
           <div
             className="cursor-pointer text-xl"
             onClick={() => setShow(false)}

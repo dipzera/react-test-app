@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useApps } from "../hooks/use-apps";
 import AppInventoryDrawer from "./AppInventoryDrawer";
+import type { InventoryApp } from "../types";
 
 const TABLE_HEADER_COLS = [
   {
@@ -17,20 +18,9 @@ const TABLE_HEADER_COLS = [
   },
 ];
 
-// TODO: Move to separate type-related directory
-export type InventoryApp = {
-  id: string;
-  name: string;
-  category: string;
-  connector: string;
-};
-
 export default function AppInventoryTable() {
   const inventoryApps = useApps();
   const [app, setApp] = useState<InventoryApp | null>(null);
-
-
-  // TODO: Move table items to separate component
 
   return (
     <>
@@ -38,7 +28,7 @@ export default function AppInventoryTable() {
         <thead className="text-xs">
           <tr>
             {TABLE_HEADER_COLS.map((col) => (
-              <th key={col.key} className="px-6 py-3">
+              <th key={col.key} className="px-6 py-3 font-semibold">
                 {col.name}
               </th>
             ))}
@@ -53,13 +43,22 @@ export default function AppInventoryTable() {
             >
               <td className="px-6 py-4 whitespace-nowrap">{app.name}</td>
               <td className="px-6 py-4 whitespace-nowrap">{app.category}</td>
-              {/* TODO: Render connector icon here */}
-              <td className="px-6 py-4 whitespace-nowrap">{app.connector}</td>
+              <td className="px-6 py-4">
+                <div className="rounded-full overflow-hidden object-cover max-w-8">
+                  <img className="w-full h-full" src={app.connector} alt={app.connector} />
+                </div>
+              </td>
             </tr>
           ))}
         </tbody>
       </table>
-      {app && <AppInventoryDrawer show={!!app} setShow={() => setApp(null)} app={app} />}
+      {app && (
+        <AppInventoryDrawer
+          show={!!app}
+          setShow={() => setApp(null)}
+          app={app}
+        />
+      )}
     </>
   );
 }

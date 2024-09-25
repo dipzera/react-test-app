@@ -1,12 +1,6 @@
 import { useUser } from "../hooks/use-user";
 import ChevronDown from "../assets/svg-components/ChevronDown";
 
-export type User = {
-  id: string;
-  name: string;
-  avatar: string;
-};
-
 export default function UserProfile() {
   const user = useUser();
 
