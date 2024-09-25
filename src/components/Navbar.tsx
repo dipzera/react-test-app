@@ -5,7 +5,7 @@ import UserProfile from "./UserProfile";
 
 export default function Navbar() {
   return (
-    <div className="flex flex-row items-center w-full h-[56px] bg-[#1f5ced] px-5 gap-6">
+    <div className="flex flex-row items-center w-full h-[--navbar-height] bg-[#1f5ced] px-5 gap-6">
       <div className="w-[50px]">
         <Link to="/">
           <NavbarLogo />

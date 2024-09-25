@@ -1,0 +1,134 @@
+{
+  "metadata": [
+    {
+      "id": "1",
+      "users": [
+        "user1@user.ai",
+        "user2@user.ai",
+        "user3@user.ai"
+      ],
+      "lastClassification": "2012-04-23T18:25:43.511Z"
+    },
+    {
+      "id": "2",
+      "users": [
+        "user4@user.ai",
+        "user5@user.ai"
+      ],
+      "lastClassification": "2013-05-24T19:30:45.511Z"
+    },
+    {
+      "id": "3",
+      "users": [
+        "user6@user.ai",
+        "user7@user.ai",
+        "user8@user.ai"
+      ],
+      "lastClassification": "2014-06-25T20:35:47.511Z"
+    },
+    {
+      "id": "4",
+      "users": [
+        "user9@user.ai",
+        "user10@user.ai"
+      ],
+      "lastClassification": "2015-07-26T21:40:49.511Z"
+    },
+    {
+      "id": "5",
+      "users": [
+        "user11@user.ai",
+        "user12@user.ai"
+      ],
+      "lastClassification": "2016-08-27T22:45:51.511Z"
+    },
+    {
+      "id": "6",
+      "users": [
+        "user13@user.ai",
+        "user14@user.ai"
+      ],
+      "lastClassification": "2017-09-28T23:50:53.511Z"
+    },
+    {
+      "id": "7",
+      "users": [
+        "user15@user.ai",
+        "user16@user.ai"
+      ],
+      "lastClassification": "2018-10-29T00:55:55.511Z"
+    },
+    {
+      "id": "8",
+      "users": [
+        "user17@user.ai",
+        "user18@user.ai"
+      ],
+      "lastClassification": "2019-11-30T01:00:57.511Z"
+    },
+    {
+      "id": "9",
+      "users": [
+        "user19@user.ai",
+        "user20@user.ai"
+      ],
+      "lastClassification": "2020-12-31T02:05:59.511Z"
+    },
+    {
+      "id": "10",
+      "users": [
+        "user21@user.ai",
+        "user22@user.ai"
+      ],
+      "lastClassification": "2021-01-01T03:10:01.511Z"
+    },
+    {
+      "id": "11",
+      "users": [
+        "user23@user.ai",
+        "user24@user.ai"
+      ],
+      "lastClassification": "2022-02-02T04:15:03.511Z"
+    },
+    {
+      "id": "12",
+      "users": [
+        "user25@user.ai",
+        "user26@user.ai"
+      ],
+      "lastClassification": "2023-03-03T05:20:05.511Z"
+    },
+    {
+      "id": "13",
+      "users": [
+        "user27@user.ai",
+        "user28@user.ai"
+      ],
+      "lastClassification": "2024-04-04T06:25:07.511Z"
+    },
+    {
+      "id": "14",
+      "users": [
+        "user29@user.ai",
+        "user30@user.ai"
+      ],
+      "lastClassification": "2024-04-04T06:25:07.511Z"
+    },
+    {
+      "id": "15",
+      "users": [
+        "user31@user.ai",
+        "user32@user.ai"
+      ],
+      "lastClassification": "2024-04-04T06:25:07.511Z"
+    },
+    {
+      "id": "16",
+      "users": [
+        "user33@user.ai",
+        "user34@user.ai"
+      ],
+      "lastClassification": "2024-04-04T06:25:07.511Z"
+    }
+  ]
+}

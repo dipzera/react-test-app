@@ -6,7 +6,7 @@ export const useUser = () => {
 
   useEffect(() => {
     (async function getUser() {
-      const response = await fetch("../../public/mock/user-profile.json");
+      const response = await fetch("./mock/user-profile.json");
 
       const user = await response.json();
 
